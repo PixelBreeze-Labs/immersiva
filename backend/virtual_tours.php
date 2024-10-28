@@ -37,7 +37,7 @@ if($enable_sample) {
         $sample_options .= "<option selected id='-1'>"._("Select sample tour")."</option>";
     }
     if(in_array(0,$id_vt_sample_array)) {
-        $sample_options .= "<option id='0'>SIMPLE VIRTUAL TOUR</option>";
+        $sample_options .= "<option id='0'>Immersiva</option>";
     }
     $sample_options .= get_sample_virtual_tours_options($id_vt_sample);
 }

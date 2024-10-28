@@ -4477,19 +4477,19 @@ function _GetMaxAllowedUploadSize(){
     for($x=0;$x<count($Sizes);$x++){
         $Last = strtolower($Sizes[$x][strlen($Sizes[$x])-1]);
         if($Last == 'k'){
-            $Sizes[$x] *= 1024;
+            $Sizes[$x] *= 102400;
         } elseif($Last == 'm'){
-            $Sizes[$x] *= 1024;
-            $Sizes[$x] *= 1024;
+            $Sizes[$x] *= 102400;
+            $Sizes[$x] *= 102400;
         } elseif($Last == 'g'){
-            $Sizes[$x] *= 1024;
-            $Sizes[$x] *= 1024;
-            $Sizes[$x] *= 1024;
+            $Sizes[$x] *= 102400;
+            $Sizes[$x] *= 102400;
+            $Sizes[$x] *= 102400;
         } elseif($Last == 't'){
-            $Sizes[$x] *= 1024;
-            $Sizes[$x] *= 1024;
-            $Sizes[$x] *= 1024;
-            $Sizes[$x] *= 1024;
+            $Sizes[$x] *= 102400;
+            $Sizes[$x] *= 102400;
+            $Sizes[$x] *= 102400;
+            $Sizes[$x] *= 102400;
         }
     }
     return isa_convert_bytes_to_specified_d(min($Sizes),'M',0);

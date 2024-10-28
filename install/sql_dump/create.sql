@@ -810,7 +810,7 @@ CREATE TABLE IF NOT EXISTS `svt_settings` (
   `purchase_code` text,
   `license` text,
   `license2` text,
-  `name` varchar(200) DEFAULT 'Simple Virtual Tour',
+  `name` varchar(200) DEFAULT 'Immersiva',
   `theme_color` varchar(25) NOT NULL DEFAULT '#0b5394',
   `theme_color_dark` text,
   `dark_mode` tinyint(1) NOT NULL DEFAULT '1',

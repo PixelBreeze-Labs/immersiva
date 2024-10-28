@@ -179,7 +179,7 @@ if (file_exists('../gsv/index.php')) {
                                         <a href="https://1.envato.market/9W0JVQ" target="_blank" class="btn btn-dark btn-sm float-right d-inline-block"><i class="fas fa-external-link-alt"></i>&nbsp;&nbsp;<?php echo _("BUY"); ?></a>
                                     </div>
                                     <div class="card-body">
-                                        <p class="card-text"><?php echo _("This plugin enables the SaaS version of Simple Virtual Tour with the ability to add multiple users, subscription plans and give your customers the ability to subscribe by paying via Stripe or Paypal."); ?></p>
+                                        <p class="card-text"><?php echo _("This plugin enables the SaaS version of Immersiva with the ability to add multiple users, subscription plans and give your customers the ability to subscribe by paying via Stripe or Paypal."); ?></p>
                                         <label class="mb-0"><?php echo _("Status"); ?>:&nbsp;&nbsp;</label>
                                         <span id="license_status_saas">
                                             <?php
