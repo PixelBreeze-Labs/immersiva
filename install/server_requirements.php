@@ -28,7 +28,7 @@
 	// handle previous installation
 	// -------------------------------------------------
     if(file_exists(EI_CONFIG_FILE_PATH)){ 
-		$program_already_installed = true;
+		$program_already_installed = false;
 		///header('location: '.EI_APPLICATION_START_FILE);
         ///exit;
 	}
@@ -216,9 +216,9 @@
 						}
 						echo '</div>';
 					}
-					if(!$is_error && $program_already_installed){
-						echo '<div class="alert alert-warning">'.lang_key('alert_unable_to_install').'</div>';
-					}
+//					if(!$is_error && $program_already_installed){
+//						echo '<div class="alert alert-warning">'.lang_key('alert_unable_to_install').'</div>';
+//					}
 				?>
 				<table width="99%" cellspacing="2" cellpadding="0" border="0">
 				<tbody>

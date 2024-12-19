@@ -114,7 +114,7 @@
 	// handle previous installation
 	// -------------------------------------------------
     if(file_exists(EI_CONFIG_FILE_PATH)){        
-		$program_already_installed = true;
+		$program_already_installed = false;
 		if($install_type == 'create'){
 			if(EI_ALLOW_UPDATE) $install_type = 'update';
 			else if(EI_ALLOW_UN_INSTALLATION) $install_type = 'un-install';
